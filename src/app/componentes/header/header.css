@@ -1,0 +1,29 @@
+/* Aqui vai ficar o global */
+
+
+
+/*Estilização do Header*/
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: linear-gradient(rgb(0,0,0), rgba(0,0,0,0.5));
+  top: 0; /*Faz com que o navbar se posicione no início da página*/
+  position: sticky; /* Faz com que a navbar grude no topo da tela*/
+  padding: 16px 32px;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 24px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #ccc;
+}
+
+.nav-links li a:hover {
+  color: #b00610;
+}
