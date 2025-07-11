@@ -1,1 +1,20 @@
-<p>filme works!</p>
+<section>
+  <button class="favorito-btn"(click)="alternarFavorito()">
+  <span>{{ filme1.favorito ? '\u2764' : '\u2661'}}</span>
+</button>
+
+<div class="imagem">
+  <img [src]="filme1.imagem" [alt]="filme1.nome">
+
+</div>
+
+<div class="info-filme">
+<h2 class="texto-h2">{{filme1.nome}}</h2>
+<h3 class="textoh3">{{filme1.sinopse}}</h3>
+</div>
+</section>
+
+
+
+
+
